@@ -18,3 +18,13 @@
 //     }
 //   }
 // }
+
+.page-wrapper {
+  @include flexbox;
+  @include flex-direction(column);
+  min-height: 100vh;
+}
+
+.page-main {
+  @include flex-grow(1);
+}

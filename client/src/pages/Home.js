@@ -1,4 +1,6 @@
 import React from 'react';
+import Footer from '../comonents/Footer';
+
 function Home() {
   return (
     <div>

@@ -1,11 +1,13 @@
 import React from 'react';
-import Router from './router';
 import './_scss/index.scss';
+import Header from './comonents/Header';
+import Footer from './comonents/Footer';
 
 function App() {
   return (
     <div>
-      <Router></Router>
+      <Header></Header>
+      <Footer></Footer>
     </div>
   );
 }

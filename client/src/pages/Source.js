@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../comonents/Footer';
 
 function Source() {
   return (
