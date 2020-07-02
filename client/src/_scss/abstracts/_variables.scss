@@ -1,0 +1,32 @@
+// Fonts
+$sansSerif: 'Open Sans';
+
+// Font Sizing
+$baseFontSize: 16px;
+$baseLineHeight: 1.5;
+$headingLineHeight: 1.2;
+
+// Color pallette
+$white: rgba(255, 255, 255, 1);
+$light-blue: rgba(156, 204, 231, 1);
+$yellow: rgba(253, 205, 73, 1);
+$dark-grey: rgba(41, 61, 59, 1);
+$blue: rgba(87, 100, 144, 1);
+$black: rgb(0, 0, 0);
+
+// Padding & Margin (REM) - see mixins/spacing
+$spacing: [0, 0.25, 0.5, 1, 1.5, 3, 3.25, 3.5, 3.75, 4];
+$spacingRules: [ [ml, margin-left], [mt, margin-top], [mb, margin-bottom], [mr,
+  margin-right], [pl, padding-left], [pt, padding-top], [pb, padding-bottom],
+  [pr, padding-right] ];
+
+// Width & Height as percentage
+$sizingRules: [ [w, width], [h, height], ];
+$sizes: [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+
+// Breakpoints
+$screen-xs-min: 425px; // Tiny phones
+$screen-sm-min: 576px; // Small tablets and large smartphones (landscape view)
+$screen-md-min: 768px; // Small tablets (portrait view)
+$screen-lg-min: 992px; // Tablets and small desktops
+$screen-xl-min: 1200px; // Large tablets and desktops

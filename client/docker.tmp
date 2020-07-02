@@ -1,0 +1,12 @@
+// basic docker commands to run client
+
+// BUILD
+docker build -t client:dev .
+
+// RUN
+docker run -it --rm -v ${PWD}:/app -v /app/node_modules -p 3001:3000 -e CHOKIDAR_USEPOLLING=true client:dev
+
+// COMMANDS
+-it starts the container in interactive mode.
+--rm removes the container and volumes after the container exits.
+-v ${PWD}:/app mounts the code into the container at “/app”.
